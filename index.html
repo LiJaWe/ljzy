@@ -1,0 +1,908 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The sixth homework</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <style type="text/css">
+        @keyframes xx {
+            from {
+                transform: translate(0px, 0px)
+            }
+            to {
+                transform: translate(0px, -5px)
+            }
+        }
+        
+        .header-41:hover .header-42 {
+            animation: xx 2s infinite;
+            animation-timing-function: ease;
+        }
+        
+        @keyframes youmove3 {
+            0% {
+                background: url(./img/images/33.png)
+            }
+            20% {
+                background: url(./img/images/33.png)
+            }
+            40% {
+                background: url(./img/images/26.png)
+            }
+            60% {
+                background: url(./img/images/31.png)
+            }
+            80% {
+                background: url(./img/images/31.png)
+            }
+            100% {
+                background: url(./img/images/30.png)
+            }
+        }
+        
+        .index {
+            animation: youmove3 25s infinite;
+            animation-timing-function: ease-in-out;
+        }
+        
+        @keyframes move1 {
+            0% {
+                background-color: rgba(255, 255, 255, 0.3);
+            }
+            20% {
+                background-color: aliceblue;
+            }
+        }
+        
+        .index-xx1 span {
+            animation: move1 25s infinite;
+            animation-timing-function: ease-in-out;
+        }
+        
+        @keyframes move2 {
+            20% {
+                background-color: rgba(255, 255, 255, 0.3);
+            }
+            40% {
+                background-color: aliceblue;
+            }
+        }
+        
+        .index-xx2 span {
+            animation: move2 25s infinite;
+            animation-timing-function: ease-in-out;
+        }
+        
+        @keyframes move3 {
+            40% {
+                background-color: rgba(255, 255, 255, 0.3);
+            }
+            60% {
+                background-color: aliceblue;
+            }
+        }
+        
+        .index-xx3 span {
+            animation: move3 25s infinite;
+            animation-timing-function: ease-in-out;
+        }
+        
+        @keyframes move4 {
+            60% {
+                background-color: rgba(255, 255, 255, 0.3);
+            }
+            80% {
+                background-color: aliceblue;
+            }
+        }
+        
+        .index-xx4 span {
+            animation: move4 25s infinite;
+            animation-timing-function: ease-in-out;
+        }
+        
+        @keyframes move5 {
+            80% {
+                background-color: rgba(255, 255, 255, 0.3);
+            }
+            100% {
+                background-color: aliceblue;
+            }
+        }
+        
+        .index-xx5 span {
+            animation: move5 25s infinite;
+            animation-timing-function: ease-in-out;
+        }
+        
+        @keyframes move {
+            from {
+                transform: translate(0px, 0px)
+            }
+            to {
+                transform: translate(0px, -15px)
+            }
+        }
+        
+        .index-411:hover img {
+            cursor: pointer;
+            animation: move 1s infinite;
+            animation-timing-function: ease;
+        }
+        
+        .index-421:hover img {
+            cursor: pointer;
+            animation: move 1s infinite;
+            animation-timing-function: ease;
+        }
+        
+        .index-431:hover img {
+            cursor: pointer;
+            animation: move 1s infinite;
+            animation-timing-function: ease;
+        }
+        
+        .index-441:hover img {
+            cursor: pointer;
+            animation: move 1s infinite;
+            animation-timing-function: ease;
+        }
+        
+        @keyframes mymove1 {
+            from {
+                transform: translate(0px, 0px)
+            }
+            to {
+                transform: translate(0px, 10px)
+            }
+        }
+        
+        .index-82:hover .index-822 {
+            cursor: pointer;
+            animation: mymove1 1s infinite;
+            animation-timing-function: ease;
+        }
+        
+        .index-82:hover .index-823 {
+            cursor: pointer;
+            animation: mymove1 1s infinite;
+            animation-timing-function: ease;
+        }
+        
+        .index-83:hover .index-832 {
+            cursor: pointer;
+            animation: mymove1 1s infinite;
+            animation-timing-function: ease;
+        }
+        
+        .index-83:hover .index-833 {
+            cursor: pointer;
+            animation: mymove1 1s infinite;
+            animation-timing-function: ease;
+        }
+        
+        .index-84:hover .index-842 {
+            cursor: pointer;
+            animation: mymove1 1s infinite;
+            animation-timing-function: ease;
+        }
+        
+        .index-84:hover .index-843 {
+            cursor: pointer;
+            animation: mymove1 1s infinite;
+            animation-timing-function: ease;
+        }
+        
+        .index-85:hover .index-852 {
+            cursor: pointer;
+            animation: mymove1 1s infinite;
+            animation-timing-function: ease;
+        }
+        
+        .index-85:hover .index-853 {
+            cursor: pointer;
+            animation: mymove1 1s infinite;
+            animation-timing-function: ease;
+        }
+        
+        .index-86:hover .index-862 {
+            cursor: pointer;
+            animation: mymove1 1s infinite;
+            animation-timing-function: ease;
+        }
+        
+        .index-86:hover .index-863 {
+            cursor: pointer;
+            animation: mymove1 1s infinite;
+            animation-timing-function: ease;
+        }
+        
+        @keyframes mymove {
+            from {
+                width: 31px;
+            }
+            to {
+                width: 100px;
+            }
+        }
+        
+        .index-521:hover span {
+            animation: mymove 1s infinite;
+            animation-timing-function: ease;
+        }
+        
+        .index-522:hover span {
+            animation: mymove 1s infinite;
+            animation-timing-function: ease;
+        }
+        
+        .index-523:hover span {
+            animation: mymove 1s infinite;
+            animation-timing-function: ease;
+        }
+        
+        .index-524:hover span {
+            animation: mymove 1s infinite;
+            animation-timing-function: ease;
+        }
+        
+        @keyframes youmove {
+            0% {
+                transform: translate(0px, 0px)
+            }
+            25% {
+                transform: translate(0px, -10px)
+            }
+            50% {
+                transform: translate(-10px, 0px)
+            }
+            75% {
+                transform: translate(10px, 0px)
+            }
+            100% {
+                transform: translate(0px, 10px)
+            }
+        }
+        
+        .index-1:hover img {
+            animation: youmove 4s infinite;
+            animation-timing-function: ease-in-out;
+        }
+        
+        @keyframes youmove1 {
+            from {
+                transform: translate(0px, 0px)
+            }
+            to {
+                transform: translate(0px, 211px)
+            }
+        }
+        
+        .col-1:hover .col-11 {
+            animation: youmove1 1s infinite;
+            animation-timing-function: ease;
+            animation-iteration-count: 1;
+        }
+        
+        .col-1:hover img {
+            animation: youmove1 1s infinite;
+            animation-timing-function: ease;
+            animation-iteration-count: 1;
+        }
+        
+        .col-1:hover span {
+            animation: youmove1 1s infinite;
+            animation-timing-function: ease;
+            animation-iteration-count: 1;
+        }
+        
+        .col-2:hover .col-21 {
+            animation: youmove1 1s infinite;
+            animation-timing-function: ease;
+            animation-iteration-count: 1;
+        }
+        
+        .col-2:hover img {
+            animation: youmove1 1s infinite;
+            animation-timing-function: ease;
+            animation-iteration-count: 1;
+        }
+        
+        .col-2:hover span {
+            animation: youmove1 1s infinite;
+            animation-timing-function: ease;
+            animation-iteration-count: 1;
+        }
+        
+        .col-3:hover .col-31 {
+            animation: youmove1 1s infinite;
+            animation-timing-function: ease;
+            animation-iteration-count: 1;
+        }
+        
+        .col-3:hover img {
+            animation: youmove1 1s infinite;
+            animation-timing-function: ease;
+            animation-iteration-count: 1;
+        }
+        
+        .col-3:hover span {
+            animation: youmove1 1s infinite;
+            animation-timing-function: ease;
+            animation-iteration-count: 1;
+        }
+        
+        .col-4:hover .col-41 {
+            animation: youmove1 1s infinite;
+            animation-timing-function: ease;
+            animation-iteration-count: 1;
+        }
+        
+        .col-4:hover img {
+            animation: youmove1 1s infinite;
+            animation-timing-function: ease;
+            animation-iteration-count: 1;
+        }
+        
+        .col-4:hover span {
+            animation: youmove1 1s infinite;
+            animation-timing-function: ease;
+            animation-iteration-count: 1;
+        }
+        
+        @keyframes youmove2 {
+            from {
+                transform: translate(0px, 0px)
+            }
+            to {
+                transform: translate(0px, -211px)
+            }
+        }
+        
+        .col-5:hover .col-51 {
+            animation: youmove2 1s infinite;
+            animation-timing-function: ease;
+            animation-iteration-count: 1;
+        }
+        
+        .col-5:hover img {
+            animation: youmove2 1s infinite;
+            animation-timing-function: ease;
+            animation-iteration-count: 1;
+        }
+        
+        .col-5:hover span {
+            animation: youmove2 1s infinite;
+            animation-timing-function: ease;
+            animation-iteration-count: 1;
+        }
+        
+        .col-6:hover .col-61 {
+            animation: youmove2 1s infinite;
+            animation-timing-function: ease;
+            animation-iteration-count: 1;
+        }
+        
+        .col-6:hover img {
+            animation: youmove2 1s infinite;
+            animation-timing-function: ease;
+            animation-iteration-count: 1;
+        }
+        
+        .col-6:hover span {
+            animation: youmove2 1s infinite;
+            animation-timing-function: ease;
+            animation-iteration-count: 1;
+        }
+        
+        .col-7:hover .col-71 {
+            animation: youmove2 1s infinite;
+            animation-timing-function: ease;
+            animation-iteration-count: 1;
+        }
+        
+        .col-7:hover img {
+            animation: youmove2 1s infinite;
+            animation-timing-function: ease;
+            animation-iteration-count: 1;
+        }
+        
+        .col-7:hover span {
+            animation: youmove2 1s infinite;
+            animation-timing-function: ease;
+            animation-iteration-count: 1;
+        }
+        
+        .col-8:hover .col-81 {
+            animation: youmove2 1s infinite;
+            animation-timing-function: ease;
+            animation-iteration-count: 1;
+        }
+        
+        .col-8:hover img {
+            animation: youmove2 1s infinite;
+            animation-timing-function: ease;
+            animation-iteration-count: 1;
+        }
+        
+        .col-8:hover span {
+            animation: youmove2 1s infinite;
+            animation-timing-function: ease;
+            animation-iteration-count: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="header-1">
+            <div class="header-2">
+                <a href="http://bk.tencent.com/"><img src="./img/images/1.png"></a>
+            </div>
+
+
+            <ul class="header-3">
+                <li><a href="http://bk.tencent.com/">首页</a></li>
+                <li><a href="http://bk.tencent.com/">产品</a></li>
+                <li><a href="http://bk.tencent.com/">S-mart</a></li>
+                <li><a href="http://bk.tencent.com/">合作伙伴</a></li>
+                <li><a href="http://bk.tencent.com/">下载</a></li>
+                <li><a href="http://bk.tencent.com/">文档</a></li>
+                <li><a href="http://bk.tencent.com/">更多</a>
+                    <div class="header-31"></div>
+
+
+                </li>
+            </ul>
+
+
+            <ul class="header-5">
+                <li class="header-52">
+                    <a href="http://bk.tencent.com/">登录</a>
+                </li>
+            </ul>
+            <ul class="header-4">
+                <li class="header-41"><a href="http://bk.tencent.com/">在线体验</a>
+                    <div class="header-42">
+                        <a href="https://cloud.tencent.com/developer/labs/lab/10386">社区版</a>
+                        <a href="/applyinfo/ee/">企业版</a>
+                        <a href="https://console.cloud.tencent.com/bk">公有云</a>
+                        <a href="http://bk.tencent.com/campus/">校园</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="index">
+        <a href="#" class="index-1"><img src="./img/images/2.png" style="transform: translate(-3.3px, -0.92px); transition: all 0.5s linear 0s;"></a>
+        <a href="#" class="index-2"><img src="./img/images/3.png"></a>
+        <ol class="index-xx">
+            <li class="index-xx1"><span></span></li>
+            <li class="index-xx2"><span></span></li>
+            <li class="index-xx3"><span></span></li>
+            <li class="index-xx4"><span></span></li>
+            <li class="index-xx5"><span></span></li>
+        </ol>
+
+
+    </div>
+
+    <div class="index-3">
+
+        <div class="index-4">
+            <div class="index-411">
+                <div class="index-411x"><img src="./img/images/4.png">
+
+                    <div class="index-41">
+                        <h3>活动热点</h3>
+                        <p>7.24运维日活动精彩回顾</p>
+                    </div>
+                </div>
+            </div>
+            <div class="index-421">
+                <div class="index-421x"><img src="./img/images/4.png">
+                    <div class="index-42">
+                        <h3>活动预告</h3>
+                        <p>2018.6.2深圳线下沙龙</p>
+                    </div>
+                </div>
+            </div>
+            <div class="index-431">
+                <div class="index-431x">
+                    <img src="./img/images/5.png">
+                    <div class="index-43">
+                        <h3>虚位以待</h3>
+                        <p>蓝鲸智云诚招合作伙伴</p>
+                    </div>
+                </div>
+            </div>
+            <div class="index-441">
+                <div class="index-441x"><img src="./img/images/4.png">
+                    <div class="index-44">
+                        <h3>活动热点</h3>
+                        <p>SaaS培训上线下火热开始</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="index-5">
+
+        <div class="index-51">
+            <h3>品牌优势<span></span></h3>
+
+            <div class="index-52">
+
+                <div class="index-521">
+                    <div class="index-5211">
+                        <p class="index-5212">
+                            <img src="./img/images/6.png">方案成熟
+                        </p><span></span>
+                        <p class="index-5213">
+                            拥有支撑数百款腾讯业务的经验沉淀，兼容各种复杂的系统架构，生于运维 · 精于运维。
+                        </p>
+                    </div>
+                </div>
+
+                <div class="index-522">
+                    <div class="index-5221">
+                        <p class="index-5222">
+                            <img src="./img/images/7.png">覆盖全面
+                        </p><span></span>
+                        <p class="index-5223">
+                            从配置管理，到作业执行、任务调度和监控自愈，再通过运维大数据分析辅助运营决策，全方位覆盖业务运营的全周期保障管理。
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="index-523">
+                    <div class="index-5231">
+                        <p class="index-5232">
+                            <img src="./img/images/8.png">开放平台
+                        </p><span></span>
+                        <p class="index-5233">
+                            开放的PaaS，具备强大的开发框架和调度引擎，以及完整的运维开发培训体系，助力运维快速转型升级。
+                    </div>
+
+                </div>
+
+                <div class="index-524">
+                    <div class="index-5241">
+                        <p class="index-5242">
+                            <img src="./img/images/9.png">高效运营
+                        </p><span></span>
+                        <p class="index-5243">
+                            通过蓝鲸智云体系，能够帮助企业快速实现运维基础服务自动化，从而加速DevOps转型实现工具文化，最大化提高运营效率。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="index-6">
+
+        <div class="index-61">
+            <h3>产品系列<span></span></h3>
+
+            <div class="index-611">
+                <div class="index-6111">
+                    <div class="index-61111">
+                        <a href="#" class="index-61112">社区版</a>
+                        <p>永久免费</p>
+                        <p>一键式部署</p>
+                        <p>自动化运维</p>
+                        <p>活跃的用户社区</p>
+                        <p>完善的帮助文档</p>
+                        <a href="#" class="index-61113">立即下载</a>
+                    </div>
+                </div>
+
+
+
+                <div class="index-6112">
+                    <div class="index-61121">
+                        <a href="#" class="index-61122">企业版</a>
+                        <p>专家级定制</p>
+                        <p>7*24h专属服务</p>
+                        <p>分布式部署、无限量API</p>
+                        <p>License永久授权、支持小型机</p>
+                        <p>企业内部培训</p>
+                        <a href="#" class="index-61123">立即下载</a>
+                    </div>
+                </div>
+
+
+
+                <div class="index-6131">
+                    <div class="index-61311">
+                        <a href="#" class="index-61132">公有云版</a>
+                        <p>跨云管理</p>
+                        <p>开发者社区</p>
+                        <p>丰富的公共服务</p>
+                        <p>内测产品优先体验</p>
+                        <p>5*8h客户服务</p>
+                        <a href="#" class="index-61133">立即下载</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="index-7">
+        <div class="index-71">
+            <h3>八大功能 <span></span></h3>
+
+            <div class="index-72">
+                <div class="col-1">
+                    <img src="./img/images/11.png"><span>作业执行</span>
+                    <div class="col-11">
+                        <p>提供面向运维人员的服务器/设备基础信息、进程服务、业务拓扑等资源的配置管理平台，支持自动发现和web可视化能力，并具备丰富的API接口。</p>
+                    </div>
+                </div>
+
+                <div class="col-2">
+                    <img src="./img/images/12.png"><span>DevOps</span>
+                    <div class="col-21">
+                        <p>支持多云并发、海量且高效的运维操作平台，涵盖了脚本执行、文件拉取/分发等基础操作，满足各种复杂运维场景一键式作业，实现真正的Web自动化运维。</p>
+                    </div>
+                </div>
+
+                <div class="col-3">
+                    <img src="./img/images/13.png"><span>移动运维</span>
+                    <div class="col-31">
+                        <p>提供了完整的开发框架、调度引擎以及丰富的组件、页面样例，旨在降低运维开发的门槛，提升了应用的开发效率，最快10分钟开发出一个应用。</p>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <img src="./img/images/14.png"><span>任务调度</span>
+                    <div class="col-41">
+                        <p>借助微信公众号解决方案，整合蓝鲸的功能特性移植到移动端，最大化提高运维工作效率和便捷性，真正做到“工作 • 生活，弹指一瞬间”。</p>
+                    </div>
+                </div>
+
+                <div class="col-5">
+                    <img src="./img/images/15.png"><span>数据分析</span>
+                    <div class="col-51">
+                        <p>蓝鲸体系拥有强大的任务调度引擎，能够自定义将多个系统的作业任务串接成一个流程，轻松实现跨系统的调度自动化。</p>
+                    </div>
+                </div>
+
+                <div class="col-6">
+                    <img src="./img/images/16.png"><span>监控告警</span>
+                    <div class="col-61">
+                        <p>专注于运维领域的大数据平台，以海量数据采集、实时/离线分析计算、数据可视化、大容量存储及Data API等优势，致力打造专业的运维数据运营解决方案。</p>
+                    </div>
+                </div>
+
+                <div class="col-7">
+                    <img src="./img/images/17.png"><span>CI/CD</span>
+                    <div class="col-71">
+                        <p>覆盖自下而上的（包括并不仅限于）设备主机、应用服务、平台系统、舆情等多维度/多指标的全方位监控告警服务。</p>
+                    </div>
+                </div>
+
+                <div class="col-8">
+                    <img src="./img/images/18.png"><span>配置管理</span>
+                    <div class="col-81">
+                        <p>蓝鲸提供了从代码的构建、集成到最终交付部署的完整自动化工具链，使产品持续部署各个环节得到全周期的管控，交付的效率得到循序渐进的提高。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="index-8">
+        <div class="index-81">
+            <h3>行业说<span></span></h3>
+
+
+            <div class="index-82">
+                <div class="index-821"></div>
+                <div class="index-822">
+                    <h4>IT服务商说:</h4>
+                    <p>基于蓝鲸体系的运维工具与运营系统，是蓝鲸为IT服务商提供的最大的平台。</p>
+                </div>
+                <div class="index-823"></div>
+            </div>
+
+
+
+            <div class="index-83">
+                <div class="index-831"></div>
+                <div class="index-832">
+                    <h4>金融行业说：</h4>
+                    <p>蓝鲸可以为金融行业提供严苛的安全及稳定服务。</p>
+                </div>
+                <div class="index-833"></div>
+            </div>
+
+
+            <div class="index-84">
+                <div class="index-841"></div>
+                <div class="index-842">
+                    <h4>金融行业说：</h4>
+                    <p>蓝鲸可以为金融行业提供严苛的安全及稳定服务。</p>
+                </div>
+                <div class="index-843"></div>
+
+
+            </div>
+
+
+            <div class="index-85">
+                <div class="index-851"></div>
+                <div class="index-852">
+                    <h4>互联网行业说：</h4>
+                    <p>蓝鲸可以适配企业内已有的运营系统，生于互联网，精于互联网。</p>
+                </div>
+                <div class="index-853"></div>
+            </div>
+
+
+            <div class="index-86">
+                <div class="index-861"></div>
+                <div class="index-862">
+                    <h4>传统企业说：</h4>
+                    <p>蓝鲸体系是一套完善技术运营解决方案。</p>
+                </div>
+                <div class="index-863"></div>
+
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+    <div class="index-9">
+        <div class="index-91">
+            <div class="index-99">
+                <dl class="index-911">
+                    <dt>网站导航</dt>
+                    <dd><a href="#">蓝鲸动态</a></dd>
+                    <dd><a href="#">招聘信息</a></dd>
+                    <dd><a href="#">法律申明</a></dd>
+                    <dd><a href="#">关于我们</a></dd>
+                    <dd><a href="#">蓝鲸论坛</a></dd>
+                    <dd><a href="#">蓝鲸校园</a></dd>
+                </dl>
+
+                <dl class="index-912">
+                    <dt>友情链接</dt>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <dd><a target="_blank" href="http://www.canwayit.com/tech/index.html">嘉为科技</a></dd>
+                                </td>
+                                <td>
+                                    <dd><a target="_blank" href="http://www.canwayit.com/tech/index.html">学领未来</a></dd>
+                                </td>
+                                <td>
+                                    <dd><a target="_blank" href="http://www.canwayit.com/tech/index.html">极客邦科技</a></dd>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <dd><a target="_blank" href="http://www.canwayit.com/tech/index.html">元鼎科技</a></dd>
+                                </td>
+                                <td>
+                                    <dd><a target="_blank" href="http://www.canwayit.com/tech/index.html">尚观教育</a></dd>
+                                </td>
+                                <td>
+                                    <dd><a target="_blank" href="http://www.canwayit.com/tech/index.html">高效运维社区</a></dd>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <dd><a target="_blank" href="http://www.canwayit.com/tech/index.html">江苏开拓</a></dd>
+                                </td>
+                                <td>
+                                    <dd><a target="_blank" href="http://www.canwayit.com/tech/index.html">马哥教育</a></dd>
+                                </td>
+                                <td>
+                                    <dd><a target="_blank" href="http://www.canwayit.com/tech/index.html">腾讯课堂</a></dd>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <dd><a target="_blank" href="http://www.canwayit.com/tech/index.html">可源网络</a></dd>
+                                </td>
+                                <td>
+                                    <dd><a target="_blank" href="http://www.canwayit.com/tech/index.html">翰纬科技</a></dd>
+                                </td>
+                                <td>
+                                    <dd><a target="_blank" href="http://www.canwayit.com/tech/index.html">腾讯工蜂</a></dd>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <dd><a target="_blank" href="http://www.canwayit.com/tech/index.html">青藤云</a></dd>
+                                </td>
+                                <td>
+                                    <dd><a target="_blank" href="http://www.canwayit.com/tech/index.html">朋多信息科技</a></dd>
+                                </td>
+                                <td>
+                                    <dd><a target="_blank" href="http://www.canwayit.com/tech/index.html">腾讯Tapd</a></dd>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <dd><a target="_blank" href="http://www.canwayit.com/tech/index.html">有孚网络</a></dd>
+                                </td>
+                                <td>
+                                    <dd><a target="_blank" href="http://www.canwayit.com/tech/index.html">中畅数据</a></dd>
+                                </td>
+                                <td>
+                                    <dd><a target="_blank" href="http://www.canwayit.com/tech/index.html">优炫软件</a></dd>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <dd><a target="_blank" href="http://www.canwayit.com/tech/index.html">苏州博纳讯动</a></dd>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </dl>
+
+                <dl class="index-913">
+                    <dt>蓝鲸客服</dt>
+                    <dd>客服 QQ:<a target="_blank" href="http://www.canwayit.com/tech/index.html">800802001</a></dd>
+                    <dd>社区版交流1群:<a target="_blank" href="http://www.canwayit.com/tech/index.html">495299374</a></dd>
+                    <dd>客服邮箱:<a target="_blank" href="http://www.canwayit.com/tech/index.html">contactus_bk@tencent.com</a></dd>
+                </dl>
+
+                <div class="index-914">
+                    <img src="./img/images/20.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="index-10">
+        <div class="index-11">
+            <div class="index-111"><img src="img/images/1.png"></div>
+            <div class="index-112">
+                <p>Copyright © 2012-2018 Tencent BlueKing. All Rights Reserved. 腾讯蓝鲸 版权所有</p>
+                <div class="index-1121">简体中文<span><img src="./img/images/21.png"></span></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
